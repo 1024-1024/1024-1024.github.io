@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>1024-HOPE</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-10T03:07:16.905Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zhangweilong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>APT</title>
+    <link href="http://yoursite.com/2019/01/10/apt/"/>
+    <id>http://yoursite.com/2019/01/10/apt/</id>
+    <published>2019-01-10T02:04:33.799Z</published>
+    <updated>2019-01-10T03:07:16.905Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Jan 10 2019 11:24:16 GMT+0800 (GMT+08:00) --><p>作者：Haraway<br>链接：<a href="https://www.jianshu.com/p/840b89dc67b1" target="_blank" rel="noopener">原地址</a><br>來源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p><h2 id="APT"><a href="#APT" class="headerlink" title="APT"></a>APT</h2><h3 id="apt"><a href="#apt" class="headerlink" title="apt"></a>apt</h3><p>APT(Annotation Processing Tool)是一种处理注释的工具，它对源代码文件进行检测找出其中的Annotation，根据注释自动生成代码。Annotation处理器在出来Annotation时可以根据源文件中的Annotation生成额外的源文件和其它的文件（文件具体内容由Annotation处理器的编写者决定），APT还会编译生成的源文件和原来的源文件，将它们一起生成class文件。</p><h3 id="annotationProcessor"><a href="#annotationProcessor" class="headerlink" title="annotationProcessor"></a>annotationProcessor</h3><p>annotationProcessor是APT工具中的一种，他是google开发的内置框架，不需要引入，可以直接在build.gradle文件中使用</p><h3 id="android-apt"><a href="#android-apt" class="headerlink" title="android-apt"></a>android-apt</h3><p>android-apt是由一位开发者自己开发的apt框架，源代码托管在这里，随着Android Gradle 插件 2.2 版本的发布，Android Gradle 插件提供了名为 annotationProcessor 的功能来完全代替 android-apt ，自此android-apt 作者在官网发表声明最新的Android Gradle插件现在已经支持annotationProcessor，并警告和或阻止android-apt ，并推荐大家使用 Android 官方插件annotationProcessor。</p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Jan 10 2019 11:24:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;作者：Haraway&lt;br&gt;链接：&lt;a href=&quot;https://www.jianshu.com/p/840b89dc67b1&quot; target
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/01/09/hello-world/"/>
+    <id>http://yoursite.com/2019/01/09/hello-world/</id>
+    <published>2019-01-09T13:57:38.096Z</published>
+    <updated>2019-01-10T02:54:20.189Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Jan 10 2019 11:24:16 GMT+0800 (GMT+08:00) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><p>###直接下面一句话：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Thu Jan 10 2019 11:24:16 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hex
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
