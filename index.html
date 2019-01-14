@@ -163,9 +163,9 @@
         <h2 id="APT-概念了解"><a href="#APT-概念了解" class="headerlink" title="APT-概念了解"></a>APT-概念了解</h2><p>友情链接：</p>
 <p><a href="https://lizhaoxuan.github.io/2016/07/17/apt-Grammar-explanation/" target="_blank" rel="noopener">https://lizhaoxuan.github.io/2016/07/17/apt-Grammar-explanation/</a></p>
 <p><a href="https://github.com/Gavin-ZYX/APTTest.git" target="_blank" rel="noopener">https://github.com/Gavin-ZYX/APTTest.git</a></p>
-<h3 id="apt"><a href="#apt" class="headerlink" title="apt"></a>apt</h3><p>APT(Annotation Processing Tool)是一种处理注释的工具，它对源代码文件进行检测找出其中的Annotation，根据注释自动生成代码。Annotation处理器在出来Annotation时可以根据源文件中的Annotation生成额外的源文件和其它的文件（文件具体内容由Annotation处理器的编写者决定），APT还会编译生成的源文件和原来的源文件，将它们一起生成class文件。</p>
-<h3 id="annotationProcessor"><a href="#annotationProcessor" class="headerlink" title="annotationProcessor"></a>annotationProcessor</h3><p>annotationProcessor是APT工具中的一种，他是google开发的内置框架，不需要引入，可以直接在build.gradle文件中使用</p>
-<h3 id="android-apt"><a href="#android-apt" class="headerlink" title="android-apt"></a>android-apt</h3><p>android-apt是由一位开发者自己开发的apt框架，源代码托管在这里，随着Android Gradle 插件 2.2 版本的发布，Android Gradle 插件提供了名为 annotationProcessor 的功能来完全代替 android-apt ，自此android-apt 作者在官网发表声明最新的Android Gradle插件现在已经支持annotationProcessor，并警告和或阻止android-apt ，并推荐大家使用 Android 官方插件annotationProcessor。</p>
+<h3 id="apt"><a href="#apt" class="headerlink" title="apt"></a>apt</h3><p><strong>APT(Annotation Processing Tool)</strong>是一种处理注释的工具，它对源代码文件进行检测找出其中的Annotation，根据注释自动生成代码。Annotation处理器在出来Annotation时可以根据源文件中的Annotation生成额外的源文件和其它的文件（文件具体内容由Annotation处理器的编写者决定），APT还会编译生成的源文件和原来的源文件，将它们一起生成class文件。</p>
+<h3 id="annotationProcessor"><a href="#annotationProcessor" class="headerlink" title="annotationProcessor"></a>annotationProcessor</h3><p>annotationProcessor是<strong>APT工具</strong>中的一种，他是<strong>google</strong>开发的内置框架，不需要引入，可以直接在build.gradle文件中使用</p>
+<h3 id="android-apt"><a href="#android-apt" class="headerlink" title="android-apt"></a>android-apt</h3><p>android-apt是由一位开发者自己开发的<strong>apt框架</strong>，源代码托管在这里，随着Android Gradle 插件 2.2 版本的发布，Android Gradle 插件提供了名为 annotationProcessor 的功能来完全代替 android-apt ，自此android-apt 作者在官网发表声明最新的Android Gradle插件现在已经支持annotationProcessor，并警告和或阻止android-apt ，并推荐大家使用 Android 官方插件annotationProcessor。</p>
 <h2 id="Demo-知识点"><a href="#Demo-知识点" class="headerlink" title="Demo-知识点"></a>Demo-知识点</h2><h3 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h3><blockquote>
 <p>@Retention</p>
 </blockquote>
@@ -196,9 +196,9 @@
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//取得Messager对象</span><br><span class="line">Messager messager = processingEnv.getMessager();</span><br></pre></td></tr></table></figure>
 <p>Processor日志输出的位置在编译器下方的Messages窗口中</p>
-<p>Processor支持最基础的System.out方法</p>
+<p>Processor支持最基础的<strong>System.out</strong>方法</p>
 <p>同样Processor也有自己的Log输出工具: Messager</p>
-<p>同Log类似，Messager也有日志级别的选择</p>
+<p>同Log类似，Messager也有<strong>日志级别</strong>的选择</p>
 <ul>
 <li>Diagnostic.Kind.ERROR</li>
 <li>Diagnostic.Kind.WARNING</li>
